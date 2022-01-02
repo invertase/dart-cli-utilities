@@ -1,0 +1,15 @@
+name: storagebox
+description: Easily store configuration keys and values for your CLI and web apps.
+version: 1.0.0
+repository: https://github.com/invertase/dart-cli-utilities/tree/main/packages/storagebox
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dev_dependencies:
+  test: ^1.16.0
+dependencies:
+  collection: ^1.15.0
+  meta: ^1.7.0
+  path: ^1.8.1
+  xdg_directories: ^0.2.0

@@ -1,0 +1,30 @@
+name: dart_cli_utilities
+repository: https://github.com/invertase/dart-cli-utilities
+packages:
+  - "packages/**"
+
+command:
+  version:
+    # Generate commit links in package changelogs.
+    linkToCommits: true
+    # Only allow versioning to happen on main branch.
+    branch: main
+    workspaceChangelog: true
+
+ide:
+  intellij: false
+
+scripts:
+  analyze:
+    run: melos exec -c 1 -- "dart analyze . --fatal-infos"
+    description: Run dart analyzer in a specific package.
+
+  test:
+    description: Run tests in a specific package.
+    # TODO(Salakar) 'dart pub get' is necessary for the 'melos' package as we're using it on itself
+    run: melos exec --concurrency=1 -- "dart pub get && dart pub run test --reporter expanded"
+    select-package:
+      dir-exists:
+        - "test/"
+
+  format: dart format -o write .
