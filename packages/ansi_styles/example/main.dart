@@ -1,5 +1,6 @@
 // ignore_for_file: avoid_print
 import 'package:ansi_styles/ansi_styles.dart';
+import 'package:ansi_styles/src/extension.dart';
 
 void main() {
   print(AnsiStyles.red.underline('Underlined red text'));
@@ -11,4 +12,7 @@ void main() {
     AnsiStyles.strikethrough
         .bgRgb(255, 165, 0)('Strikethrough text with an orange background'),
   );
+  // Using string extension
+  print('hello'.bold.red);
+  print('hello'.bold.red.underline.bgBlack);
 }

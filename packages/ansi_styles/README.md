@@ -6,11 +6,10 @@
 <a href="https://github.com/invertase/melos"><img src="https://img.shields.io/badge/maintained%20with-melos-f700ff.svg?style=flat-square" alt="Melos" /></a>
 <a href="https://docs.page"><img src="https://img.shields.io/badge/powered%20by-docs.page-34C4AC.svg?style=flat-square" alt="docs.page" /></a>
 
-<a href="https://dart-cli-utilities.invertase.dev">Documentation</a> &bull; 
+<a href="https://dart-cli-utilities.invertase.dev">Documentation</a> &bull;
 <a href="https://github.com/invertase/dart-cli-utilities/blob/main/LICENSE">License</a>
 
 ---
-
 
 ## Usage
 
@@ -44,6 +43,23 @@ String styledText = AnsiStyles.red.underline('Underlined red text');
 String cleanText = AnsiStyles.strip(styledText);
 ```
 
+### String Extension
+
+This package also provides a String Extension which can be imported:
+
+```dart
+import 'package:ansi_styles/src/extension.dart';
+```
+
+Styling methods are now available on Strings:
+
+```dart
+void main() {
+  print('hello'.bold.red);
+  print('hello'.bold.red.underline.bgBlack);
+}
+```
+
 ## License
 
 - See [LICENSE](/LICENSE)
@@ -58,4 +74,3 @@ String cleanText = AnsiStyles.strip(styledText);
     Built and maintained by <a href="https://invertase.io/?utm_source=readme&utm_medium=footer&utm_campaign=dart-cli-utilities">Invertase</a>.
   </p>
 </p>
-
