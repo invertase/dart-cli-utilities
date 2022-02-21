@@ -1,19 +1,21 @@
 <p align="center">
   <h1>📦 StorageBox</h1>
-  <span>Easily store and persist configuration items for your Dart CLI and Web apps.</span>
+  <span>Easily store and persist configuration items for your Dart CLIs and Web apps.</span>
 </p>
 
 <a href="https://github.com/invertase/melos"><img src="https://img.shields.io/badge/maintained%20with-melos-f700ff.svg?style=flat-square" alt="Melos" /></a>
 <a href="https://docs.page"><img src="https://img.shields.io/badge/powered%20by-docs.page-34C4AC.svg?style=flat-square" alt="docs.page" /></a>
 
-<a href="https://dart-cli-utilities.invertase.dev">Documentation</a> &bull; 
+<a href="https://dart-cli-utilities.invertase.dev">Documentation</a> &bull;
 <a href="https://github.com/invertase/dart-cli-utilities/blob/main/LICENSE">License</a>
 
 ---
 
 ### About
 
-> TODO description/about
+Storagebox is a lightweight configuration storage API for Dart CLI apps with a familiar `Map`-like API.
+
+It maintains some compatibility with [`configstore`](https://github.com/yeoman/configstore) from the Node.js ecosystem via `configPathPrefix`, allowing you to migrate away from it or use existing configuration items that exist from Node.js based CLIs.
 
 **Example:**
 
