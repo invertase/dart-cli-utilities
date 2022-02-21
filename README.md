@@ -13,10 +13,12 @@
 
 ### Packages
 
- - [**📦 StorageBox**](packages/storagebox)
-   - Easily store and persist configuration items for your CLI apps.
  - [**🌈 AnsiStyles**](packages/ansi_styles)
    - Create colorful terminal output with ansi styled text in io environments.
+ - [**☁️ CI**](packages/ci)
+   - Detect whether you're running in a CI environment and retrieve information about the CI vendor.
+ - [**📦 StorageBox**](packages/storagebox)
+   - Easily store and persist configuration items for your CLI apps.
 
 
 ---
