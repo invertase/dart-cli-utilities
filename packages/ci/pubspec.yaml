@@ -1,0 +1,11 @@
+name: ci
+description: Detect whether you're running in a CI environment and information about the CI vendor.
+version: 0.1.0
+repository: https://github.com/invertase/dart-cli-utilities/tree/main/packages/ci
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dev_dependencies:
+  http: ^0.13.4
+  test: ^1.16.0

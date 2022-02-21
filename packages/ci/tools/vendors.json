@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Codemagic",
+    "constant": "CODEMAGIC",
+    "env": "FCI_BUILD_ID",
+    "pr": {
+      "env": "FCI_PULL_REQUEST",
+      "ne": "false"
+    }
+  }
+]
