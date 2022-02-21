@@ -1,6 +1,6 @@
 // ignore_for_file: avoid_print
 import 'package:ansi_styles/ansi_styles.dart';
-import 'package:ansi_styles/src/extension.dart';
+import 'package:ansi_styles/extension.dart';
 
 void main() {
   print(AnsiStyles.red.underline('Underlined red text'));

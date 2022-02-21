@@ -1,4 +1,4 @@
-import '../ansi_styles.dart';
+import 'ansi_styles.dart';
 
 extension AnsiStylesStringExtension on String {
   String get reset => AnsiStyles.reset(this);

@@ -48,7 +48,7 @@ String cleanText = AnsiStyles.strip(styledText);
 This package also provides a String Extension which can be imported:
 
 ```dart
-import 'package:ansi_styles/src/extension.dart';
+import 'package:ansi_styles/extension.dart';
 ```
 
 Styling methods are now available on Strings:
