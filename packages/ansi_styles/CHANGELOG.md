@@ -1,3 +1,7 @@
+## 0.3.2+1
+
+ - **REFACTOR**: move extension implementation outside of ./src. ([b707dede](https://github.com/invertase/dart-cli-utilities/commit/b707dede95a4ec4cada1686cf947aa90ae09e4b8))
+
 ## 0.3.2
 
  - **REFACTOR**: update package homepage url to new repository. ([dc502ec1](https://github.com/invertase/dart-cli-utilities/commit/dc502ec1ae3b74f90cf1d43582026628ab1bfdda))

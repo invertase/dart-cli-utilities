@@ -1,6 +1,6 @@
 name: ansi_styles
 description: ANSI escape codes for styling strings in the terminal.
-version: 0.3.2
+version: 0.3.2+1
 homepage: https://github.com/invertase/dart-cli-utilities/tree/main/packages/ansi_styles
 
 environment:

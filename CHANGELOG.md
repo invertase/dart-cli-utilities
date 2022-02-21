@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`ansi_styles` - `v0.3.2+1`](#ansi_styles---v0321)
+
+---
+
+#### `ansi_styles` - `v0.3.2+1`
+
+ - **REFACTOR**: move extension implementation outside of ./src. ([b707dede](https://github.com/invertase/dart-cli-utilities/commit/b707dede95a4ec4cada1686cf947aa90ae09e4b8))
+
+
+## 2022-02-21
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`ansi_styles` - `v0.3.2`](#ansi_styles---v032)
 
 ---
