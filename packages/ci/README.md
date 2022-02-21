@@ -32,7 +32,7 @@ Future<void> main() async {
 
 The default CI vendors list is sourced from [watson/ci-info](https://github.com/watson/ci-info/blob/master/vendors.json), with an additional local [`vendors.json`](tools/vendors.json) file that allows adding new vendors or overriding vendors from the default CI vendors list.
 
-In most cases, you should make changes to the local [`vendors.json`](tools/vendors.json) file and send a PR to add in support. Run `dart tools/generate_vendors.dart` before submitting your PR to update the generated `vendor.g.dart` file.
+In most cases, you should make changes to the local [`vendors.json`](tools/vendors.json) file and send a PR to add in support. Run `dart generator/generate_vendors.dart` before submitting your PR to update the generated `vendor.g.dart` file.
 
 ---
 
