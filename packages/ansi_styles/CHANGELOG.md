@@ -1,3 +1,8 @@
+## 0.3.2
+
+ - **REFACTOR**: update package homepage url to new repository. ([dc502ec1](https://github.com/invertase/dart-cli-utilities/commit/dc502ec1ae3b74f90cf1d43582026628ab1bfdda))
+ - **FEAT**: support styling via a Dart extension methods on String. ([13823280](https://github.com/invertase/dart-cli-utilities/commit/13823280123780df459a30f3dc5772ce500d9b40))
+
 ## 0.3.1
 
  - Graduate package to a stable release. See pre-releases prior to this version for changelog entries.

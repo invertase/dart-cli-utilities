@@ -15,6 +15,28 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`ansi_styles` - `v0.3.2`](#ansi_styles---v032)
+
+---
+
+#### `ansi_styles` - `v0.3.2`
+
+ - **REFACTOR**: update package homepage url to new repository. ([dc502ec1](https://github.com/invertase/dart-cli-utilities/commit/dc502ec1ae3b74f90cf1d43582026628ab1bfdda))
+ - **FEAT**: support styling via a Dart extension methods on String. ([13823280](https://github.com/invertase/dart-cli-utilities/commit/13823280123780df459a30f3dc5772ce500d9b40))
+
+
+## 2022-02-21
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`storagebox` - `v0.1.0+1`](#storagebox---v0101)
 
 ---
