@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2022-04-27
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`storagebox` - `v0.1.0+2`](#storagebox---v0102)
+
+---
+
+#### `storagebox` - `v0.1.0+2`
+
+ - downgrade path to 1.8.0
+
+
 ## 2022-02-21
 
 ### Changes
