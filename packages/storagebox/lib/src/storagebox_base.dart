@@ -68,9 +68,7 @@ class StorageBoxImplementationBase<K, T>
 
   @override
   void clear() {
-    delegate = {
-      ...delegate,
-    };
+    delegate = {};
   }
 
   @override
