@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2022-04-28
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`storagebox` - `v0.1.0+3`](#storagebox---v0103)
+
+---
+
+#### `storagebox` - `v0.1.0+3`
+
+ - **FIX**: fix clearing storage (#4). ([bb512eec](https://github.com/invertase/dart-cli-utilities/commit/bb512eecf1f8ca9cad73e8f8b06cfd9edb4614f2))
+
+
 ## 2022-04-27
 
 ### Changes
