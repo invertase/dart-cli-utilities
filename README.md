@@ -9,7 +9,6 @@
   <img src="https://img.shields.io/discord/295953187817521152.svg?style=flat-square&colorA=7289da&label=Chat%20on%20Discord" alt="Chat on Discord">
 </a>
 
-<a href="https://dart-cli-utilities.invertase.dev">Documentation</a> &bull;
 <a href="https://github.com/invertase/dart-cli-utilities/blob/main/LICENSE">License</a>
 
 ---
